@@ -1,0 +1,16 @@
+# Artefakty kompilacji
+build/
+*.exe
+*.o
+*.obj
+
+# Pliki lokalne edytora i systemu
+.vscode/*
+!.vscode/tasks.json
+!.vscode/settings.json
+*.swp
+Thumbs.db
+.DS_Store
+
+# Artefakty Jupyter
+.ipynb_checkpoints/
